@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Test cache
+.pytest_cache/
+
+# PuLP / CBC solver temporary files
+*.mps
+*.lp
+*.sol
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
